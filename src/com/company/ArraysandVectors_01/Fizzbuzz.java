@@ -1,3 +1,6 @@
+/**
+ * Write a program that prints the numbers from 1 to n and for multiples of ‘3’ print “Fizz” instead of the number and for the multiples of ‘5’ print “Buzz”.
+ */
 package com.company.ArraysandVectors_01;
 
 import java.util.Vector;
