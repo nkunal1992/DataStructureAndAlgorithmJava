@@ -1,5 +1,8 @@
 package com.company.ArraysandVectors_01;
 
+import java.util.Collections;
+import java.util.Vector;
+
 public class Mountain {
 
     public static int highest_mountain(int[] a){
@@ -33,5 +36,11 @@ public class Mountain {
         }
         return largest;
 
+    }
+
+    public static void main(String[] args) {
+        int [] a = {5,6,1,2,3,4,5,4,3,2,0,1,2,3,-2,4};
+
+        System.out.println(highest_mountain(a));
     }
 }

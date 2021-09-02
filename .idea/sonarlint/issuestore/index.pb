@@ -15,8 +15,6 @@ d
 4src/com/company/ArraysandVectors_01/LargestBand.java,3\5\35b6849c55c739cff37bb9151c9922224bcec64c
 `
 0src/com/company/ArraysandVectors_01/Minswap.java,b\4\b4d176359fa973a278c680f3402a63859b5f640b
-a
-1src/com/company/ArraysandVectors_01/Mountain.java,7\f\7f7392b8d7f8e2f8f669ed4ecf68a71e93dc7e75
 c
 3src/com/company/ArraysandVectors_01/OneDVector.java,5\5\55fd14962b1939216f961c32c086753b5b48bbf1
 `
