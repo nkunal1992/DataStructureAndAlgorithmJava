@@ -1,5 +1,6 @@
 package com.company.ArraysandVectors_01;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Vector;
 
@@ -43,6 +44,20 @@ public class Triplets {
         }
         return result;
 
+    }
+
+    public static void main(String[] args) {
+        Integer [] a = {1,2,3,4,5,6,7,8,9,15};
+        Vector<Integer> arr = new Vector<>();
+        Collections.addAll(arr, a);
+        int target = 18;
+
+        Vector<Vector<Integer>> res = triplets(arr, target);
+        if(res.size() == 0){
+            System.out.println("No such triplet exists");
+        } else {
+            System.out.println(res);
+        }
     }
 
 }
