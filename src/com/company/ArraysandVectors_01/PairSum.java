@@ -32,28 +32,23 @@
 
 package com.company.ArraysandVectors_01;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 
 public class PairSum {
-    public static int[] twoSum(int[] nums, int target) {
-        int [] res = new int [2];
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int idx = 0;
-
-        for(int num : nums){
-            map.put(num, idx);
-            idx++;
-        }
+    public static ArrayList<Integer> twoSum(int[] nums, int target) {
+        ArrayList<Integer> res = new ArrayList<>();
+        HashSet<Integer> set = new HashSet<>();
 
         for(int i=0; i<nums.length; i++) {
-
-            if(map.containsKey(target-nums[i])){
-                int id = map.get(target-nums[i]);
-                if(id != i){
-                    res[0] = i;
-                    res[1] = id;
-                    break;
-                }
+            int x = target - nums[i];
+            if(!set.contains(x)){
+                set.add(nums[i]);
+            } else {
+                res.add(nums[i]);
+                res.add(x);
+                break;
             }
         }
 
@@ -61,8 +56,12 @@ public class PairSum {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3,3};
-        int [] res = twoSum(nums, 6);
-        System.out.println(res[0] + " " + res[1]);
+        int[] nums = {9,-6,1,2,10};
+        ArrayList<Integer> res = twoSum(nums, 4);
+        if(res.size() == 0){
+            System.out.println("No such pair exists");
+        } else {
+            System.out.println(res.get(0) + " " + res.get(1));
+        }
     }
 }
