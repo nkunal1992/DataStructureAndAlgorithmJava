@@ -14,8 +14,8 @@ public class RainwaterTap {
         }
 
         //Left Max, Right Max
-        Vector<Integer> left = new Vector<>(0);
-        Vector<Integer> right = new Vector<>(5);
+        Vector<Integer> left = new Vector<>(n);
+        Vector<Integer> right = new Vector<>(n);
 
         for (int i = 0; i <n ; i++) {
             left.add(0);

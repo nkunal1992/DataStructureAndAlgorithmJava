@@ -1,5 +1,6 @@
 package com.company.ArraysandVectors_01;
 
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Vector;
@@ -42,6 +43,10 @@ public class LargestBand {
 
 
     public static void main(){
+        Integer [] a = {1,9,3,0,18,5,2,4,10,7,12,6};
+        Vector<Integer> arr = new Vector<>();
+        Collections.addAll(arr, a);
 
+        System.out.println(largestBand(arr));
     }
 }

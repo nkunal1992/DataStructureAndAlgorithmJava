@@ -11,8 +11,6 @@ O
 src/com/company/Heaps/CarsInput,e\b\ebcb56fa02d3e99a7a5fcdc86e26edaa01ea2826
 I
 DSAndAlgoCodingMinute.iml,f\6\f6a548810ba6825e6736a559241934f221957052
-d
-4src/com/company/ArraysandVectors_01/LargestBand.java,3\5\35b6849c55c739cff37bb9151c9922224bcec64c
 `
 0src/com/company/ArraysandVectors_01/Minswap.java,b\4\b4d176359fa973a278c680f3402a63859b5f640b
 c
@@ -169,3 +167,5 @@ X
 (src/com/company/Trie/SuffixTrieImpl.java,c\8\c89e6fa2b10d0c6567b6d3cdcf0df08f2637749d
 R
 "src/com/company/Trie/Xor_trie.java,b\e\be1b3afc0d6d000ea9ae6be42733a8bcacf1a5e2
+d
+4src/com/company/ArraysandVectors_01/LargestBand.java,3\5\35b6849c55c739cff37bb9151c9922224bcec64c
