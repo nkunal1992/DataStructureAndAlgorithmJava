@@ -1,6 +1,6 @@
 package com.company.ArraysandVectors_01;
 
-public class sortsub {
+public class SubArraySort {
 
     public static boolean outOfOrder(int[] arr,int i){
         int x = arr[i];

@@ -15,8 +15,6 @@ I
 0src/com/company/ArraysandVectors_01/Minswap.java,b\4\b4d176359fa973a278c680f3402a63859b5f640b
 c
 3src/com/company/ArraysandVectors_01/OneDVector.java,5\5\55fd14962b1939216f961c32c086753b5b48bbf1
-`
-0src/com/company/ArraysandVectors_01/sortsub.java,9\9\999fbd172903af8a0e6c4a47cdb0b1546d64e2df
 c
 3src/com/company/ArraysandVectors_01/TwoDVector.java,c\a\ca91086ae445cd4fba6e26dfaf9b4f7b710a1d8d
 ]
